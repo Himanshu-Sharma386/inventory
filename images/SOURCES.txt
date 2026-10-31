@@ -1,0 +1,68 @@
+These are real stock photographs, downloaded and stored locally for the H-Mart demo.
+They are not AI-generated illustrations. Photos are used under the respective free
+stock-photo licenses; see the linked photo pages for their terms and creators.
+
+Pexels
+rice.jpg      https://www.pexels.com/photo/close-up-of-uncooked-white-rice-grains-36346840/
+penne-pasta.jpg https://www.pexels.com/photo/full-shot-if-uncooked-penne-pasta-4852676/
+flour.jpg     https://www.pexels.com/photo/flour-scattered-on-wooden-table-in-kitchen-6294374/
+sugar.jpg     https://www.pexels.com/photo/white-sugar-cubes-on-pink-background-5469035/
+lentils.jpg   https://www.pexels.com/photo/vibrant-orange-lentils-spread-in-abundance-34940646/
+salt.jpg      https://www.pexels.com/photo/white-sea-salt-in-close-up-photography-7717461/
+groceries.jpg https://images.pexels.com/photos/8900035/pexels-photo-8900035.jpeg
+
+Unsplash
+oil.jpg      https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5
+tea.jpg      https://images.unsplash.com/photo-1544787219-7f47ccb76574
+coffee.jpg   https://images.unsplash.com/photo-1442512595331-e89e73853f31
+biscuits.jpg https://images.unsplash.com/photo-1499636136210-6f4ee915583e
+pasta.jpg    https://images.unsplash.com/photo-1551462147-ff29053bfc14
+milk.jpg     https://images.unsplash.com/photo-1563636619-e9143da7973b
+soap.jpg     https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec
+
+Additional Pexels photos
+chickpeas.jpg https://www.pexels.com/photo/chickpeas-28110905/
+snacks.jpg    https://www.pexels.com/photo/person-getting-delicious-potato-chips-in-a-bowl-7855668/
+juice.jpg     https://www.pexels.com/photo/fruit-glass-of-juice-and-a-plate-18071816/
+shampoo.jpg    https://www.pexels.com/photo/13516802/
+grains.jpg     https://www.pexels.com/photo/7420513/
+toothpaste.jpg https://www.pexels.com/photo/6322805/
+lotion.jpg     https://www.pexels.com/photo/7319145/
+deodorant.jpg  https://www.pexels.com/photo/8490122/
+cooking-oil.jpg https://www.pexels.com/photo/ethnic-woman-demonstrating-bottle-of-olive-oil-while-cooking-4910159/
+ground-coffee.jpg https://www.pexels.com/photo/coffee-beans-on-a-counter-top-16682442/
+tea-leaves.jpg https://www.pexels.com/photo/tea-leaves-11285384/
+
+Product-specific stock photos (Pexels)
+kidney-beans.jpg  https://www.pexels.com/photo/7717469/
+poha-rice.jpg     https://www.pexels.com/photo/7851798/
+chickpea-flour.jpg https://www.pexels.com/photo/flour-with-smiling-face-on-parquet-flooring-1047326/
+oats.jpg          https://www.pexels.com/photo/5988273/
+potato-chips.jpg  https://www.pexels.com/photo/34466116/
+peanuts.jpg       https://www.pexels.com/photo/4590484/
+cashews.jpg       https://www.pexels.com/photo/6803749/
+dark-chocolate.jpg https://www.pexels.com/photo/6167328/
+milk-chocolate.jpg https://www.pexels.com/photo/4113345/
+popcorn.jpg       https://www.pexels.com/photo/8652476/
+namkeen.jpg       https://www.pexels.com/photo/9807276/
+oat-cookies.jpg   https://www.pexels.com/photo/8750737/
+granola-bars.jpg  https://www.pexels.com/photo/36361406/
+crackers.jpg      https://www.pexels.com/photo/37108654/
+banana-chips.jpg  https://www.pexels.com/photo/9191924/
+orange-juice.jpg  https://www.pexels.com/photo/14510445/
+apple-juice.jpg   https://www.pexels.com/photo/8228301/
+sparkling-water.jpg https://www.pexels.com/photo/9004767/
+mineral-water.jpg https://www.pexels.com/photo/3737800/
+cola.jpg          https://www.pexels.com/photo/4113617/
+lemon-soda.jpg    https://www.pexels.com/photo/27551844/
+mango-juice.jpg   https://www.pexels.com/photo/30620864/
+green-tea.jpg     https://www.pexels.com/photo/34344554/
+hot-chocolate.jpg https://www.pexels.com/photo/11043663/
+conditioner-bottle.jpg https://www.pexels.com/photo/7440140/
+toothbrush.jpg    https://www.pexels.com/photo/13466251/
+hand-wash.jpg     https://www.pexels.com/photo/8298510/
+body-lotion.jpg   https://www.pexels.com/photo/14788377/
+face-wash.jpg     https://www.pexels.com/photo/15569182/
+sanitizer.jpg     https://www.pexels.com/photo/close-up-shot-of-hand-sanitizers-and-face-masks-4840351/
+tissues.jpg       https://www.pexels.com/photo/39071419/
+sunscreen.jpg     https://www.pexels.com/photo/16378485/

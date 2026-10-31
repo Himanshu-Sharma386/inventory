@@ -1,0 +1,48 @@
+P001	Basmati Rice 5kg	24	650
+P002	Sunflower Oil 1L	40	145
+P003	Wheat Flour 10kg	18	420
+P004	Sugar 1kg	50	48
+P005	Tea 500g	30	260
+P006	Red Lentils 1kg	32	125
+P007	Sea Salt 1kg	45	35
+P008	Ground Coffee 250g	20	310
+P009	Butter Biscuits 300g	28	85
+P010	Penne Pasta 500g	25	110
+P011	Whole Milk 1L	22	68
+P012	Herbal Soap 125g	36	55
+P013	Chickpeas 1kg	30	140
+P014	Kidney Beans 1kg	26	180
+P015	Flattened Rice (Poha) 1kg	22	90
+P016	Chickpea Flour 1kg	20	110
+P017	Rolled Oats 1kg	18	220
+P018	Potato Chips 150g	35	30
+P019	Salted Peanuts 200g	28	95
+P020	Roasted Cashews 200g	18	250
+P021	Dark Chocolate 100g	24	120
+P022	Milk Chocolate 100g	26	110
+P023	Popcorn Kernels 500g	20	85
+P024	Masala Namkeen 200g	30	75
+P025	Oat Cookies 250g	22	95
+P026	Granola Bars 6-pack	18	180
+P027	Corn Crackers 200g	25	80
+P028	Banana Chips 150g	21	70
+P029	Orange Juice 1L	24	130
+P030	Apple Juice 1L	20	145
+P031	Sparkling Water 750ml	32	55
+P032	Mineral Water 1L	48	20
+P033	Cola 750ml	30	45
+P034	Lemon Soda 750ml	26	40
+P035	Mango Drink 1L	22	110
+P036	Green Tea 100g	18	190
+P037	Hot Chocolate 200g	16	230
+P038	Shampoo 400ml	22	240
+P039	Conditioner 400ml	18	260
+P040	Toothpaste 150g	30	95
+P041	Toothbrush 1pc	34	45
+P042	Hand Wash 250ml	25	85
+P043	Body Lotion 200ml	20	175
+P044	Face Wash 100ml	18	130
+P045	Deodorant 150ml	24	160
+P046	Hand Sanitizer 100ml	28	60
+P047	Facial Tissues 100 sheets	32	70
+P048	Sunscreen Lotion 100ml	16	280

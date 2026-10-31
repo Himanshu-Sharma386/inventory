@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f4ef">
+  <title>H-Mart | Inventory &amp; Shopping</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="quick-commerce.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="blinkit-experiment">
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="H-Mart home">
+      <span class="brand-mark">H</span>
+      <span>H-Mart<small>EVERYDAY MARKET</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-link active" id="shopTab" type="button">Shop</button>
+      <button class="nav-link" id="adminTab" type="button">Admin</button>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="intro">
+      <div>
+        <p class="eyebrow">YOUR NEIGHBORHOOD STORE</p>
+        <h1>Good things,<br><span>in stock.</span></h1>
+        <p class="intro-copy">Browse the shelves, pick what you need, and check out when you're ready.</p>
+      </div>
+      <div class="intro-art" aria-hidden="true">
+        <span class="art-sun"></span>
+        <span class="art-bag">✳</span>
+        <span class="art-leaf leaf-one"></span>
+        <span class="art-leaf leaf-two"></span>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Store overview">
+      <article class="stat-card">
+        <span class="stat-icon">▦</span>
+        <div><p>Products</p><strong id="productCount">0</strong></div>
+      </article>
+      <article class="stat-card">
+        <span class="stat-icon stock-icon">↗</span>
+        <div><p>Units in stock</p><strong id="stockCount">0</strong></div>
+      </article>
+      <article class="stat-card cart-stat">
+        <span class="stat-icon cart-icon">▣</span>
+        <div><p>Your basket</p><strong id="cartCount">0 items</strong></div>
+      </article>
+    </section>
+
+    <section id="shopView" class="content-grid">
+      <div class="catalog">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE PANTRY</p>
+            <h2>Shop essentials</h2>
+          </div>
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" placeholder="Find a product" aria-label="Find a product">
+          </label>
+        </div>
+        <nav class="category-strip" aria-label="Product categories" hidden>
+          <button class="category-chip active" type="button" data-category="all" aria-pressed="true"><span aria-hidden="true">✦</span> All</button>
+          <button class="category-chip" type="button" data-category="staples" aria-pressed="false"><span aria-hidden="true">🌾</span> Staples</button>
+          <button class="category-chip" type="button" data-category="snacks" aria-pressed="false"><span aria-hidden="true">🍪</span> Snacks</button>
+          <button class="category-chip" type="button" data-category="drinks" aria-pressed="false"><span aria-hidden="true">☕</span> Drinks</button>
+          <button class="category-chip" type="button" data-category="personal-care" aria-pressed="false"><span aria-hidden="true">🧼</span> Personal care</button>
+        </nav>
+        <div id="productGrid" class="product-grid" aria-live="polite"></div>
+      </div>
+
+      <aside class="basket">
+        <div class="basket-heading">
+          <div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Your basket</h2></div>
+          <span id="basketBadge" class="basket-badge">0</span>
+        </div>
+        <div id="basketItems" class="basket-items"></div>
+        <div class="basket-footer">
+          <div class="total-row"><span>Total</span><strong id="basketTotal">₹0</strong></div>
+          <button id="checkoutButton" class="primary-button checkout-button" type="button" disabled>
+            Complete purchase <span aria-hidden="true">→</span>
+          </button>
+          <p class="basket-note">Your purchase updates available stock.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section id="adminView" class="admin-view hidden">
+      <div class="section-heading">
+        <div><p class="eyebrow">STORE MANAGEMENT</p><h2>Inventory admin</h2></div>
+      </div>
+      <div id="adminPanel" class="admin-panel">
+        <div class="panel-intro"><span class="panel-icon">＋</span><div><h3>Manage products</h3><p>Changes are saved in this browser only. They do not update data.txt or sync to other devices. This local demo has no admin sign-in.</p></div></div>
+        <form id="productForm" class="product-form">
+          <label>Product ID<input name="id" maxlength="20" required placeholder="e.g. P049"></label>
+          <label>Product name<input name="name" maxlength="80" required placeholder="Product name"></label>
+          <label>Category
+            <select name="category" required>
+              <option value="staples">Staples</option>
+              <option value="snacks">Snacks</option>
+              <option value="drinks">Drinks</option>
+              <option value="personal-care">Personal care</option>
+            </select>
+          </label>
+          <label>Quantity<input name="quantity" type="number" min="1" step="1" required placeholder="0"></label>
+          <label>Price (₹)<input name="price" type="number" min="1" step="1" required placeholder="0"></label>
+          <button class="primary-button add-button" type="submit">Add product <span aria-hidden="true">＋</span></button>
+        </form>
+        <p id="adminMessage" class="form-message" role="status"></p>
+        <div class="inventory-heading"><h3>Current inventory</h3></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Product ID</th><th>Product name</th><th>Category</th><th>Available</th><th>Price</th><th>Actions</th></tr></thead>
+            <tbody id="inventoryRows"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="receiptModal" class="receipt-modal hidden" role="dialog" aria-modal="true" aria-labelledby="receiptTitle">
+      <article class="receipt">
+        <div class="receipt-heading">
+          <span class="brand-mark" aria-hidden="true">H</span>
+          <div><h2 id="receiptTitle">H-Mart</h2><p>Purchase receipt</p></div>
+        </div>
+        <div class="receipt-meta">
+          <p>Bill number <strong id="receiptNumber"></strong></p>
+          <p>Date <strong id="receiptDate"></strong></p>
+        </div>
+        <div class="receipt-table-wrap">
+          <table class="receipt-table">
+            <thead><tr><th>Item</th><th>Qty</th><th>Price</th><th>Amount</th></tr></thead>
+            <tbody id="receiptRows"></tbody>
+          </table>
+        </div>
+        <div class="receipt-total"><span>Total paid</span><strong id="receiptTotal"></strong></div>
+        <p class="receipt-thanks">Thank you for shopping with H-Mart!</p>
+        <div class="receipt-actions">
+          <button id="printReceiptButton" class="primary-button" type="button">Print bill</button>
+          <button id="closeReceiptButton" class="text-button" type="button">Close</button>
+        </div>
+      </article>
+    </section>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </main>
+  <footer class="footer"><span>H-Mart</span><span>Fresh finds for everyday living.</span></footer>
+</body>
+</html>
